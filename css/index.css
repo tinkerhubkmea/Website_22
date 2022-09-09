@@ -23,6 +23,7 @@ body {
     left: auto;
     right: auto;
     top: 40px;
+    margin-left: 20px;
 
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.15) 100%);
     backdrop-filter: blur(20px);
@@ -38,4 +39,28 @@ h1,h2,h3{
     color: white;
     left: auto;
     right: auto;
+}
+
+.img1{
+    /* Ellipse 9 */
+
+    position: absolute;
+    width: 316px;
+    height: 253px;
+    left: 562px;
+    top: 332px;
+    background-image: url("https://hackp.kerala.gov.in/images/Muhammed_Iqbal.jpg") #D9D9D9;
+}
+
+.container1{
+    position:relative;
+    align-content: center;
+    width: auto;
+    height: auto;
+    left: auto;
+    right: auto;
+    top: 40px;
+    border-radius: 20px;
+    margin: top 0px;
+    padding-left: 30px;
 }
