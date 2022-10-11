@@ -1,0 +1,43 @@
+#nav{
+    color: white;
+    font-size: x-large;
+}
+
+
+.active{
+    font-weight: 1000;
+}
+
+body {
+    background: linear-gradient(187deg, #000000 1.64%, #140119 39.24%, #010022 59.75%, #1A0126 76.26%, #000000 94.77%);
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+    /*background-size: 4000px 4000px;*/
+  }
+/* Rectangle 19 */
+.container{
+    position:relative;
+    width: auto;
+    height: auto;
+    left: auto;
+    right: auto;
+    top: 40px;
+    margin-left: 20px;
+
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.15) 100%);
+    backdrop-filter: blur(20px);
+/* Note: backdrop-filter has minimal browser support */
+    border-radius: 20px;
+
+}
+
+/* FOUNDER OF TINKERHUB KMEA */
+h1,h2,h3,h4{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    left: auto;
+    right: auto;
+}
+
