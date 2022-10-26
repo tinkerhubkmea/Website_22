@@ -24,13 +24,13 @@ body{
 }
 
 .row-1 .img-1{
-    background-image: url("/images/rw1_1.png");
+    background-image: url("../images/rw1_1.png");
     width: 277.56px;
     height:111px ;
 }
 
 .row-1 .img-2{
-    background-image: url("/images/rw1_2.png");
+    background-image: url("../images/rw1_2.png");
     width:111px;
     height: 111px;
     margin-left: 40px;
@@ -62,14 +62,14 @@ margin-top: 70px;
 .row-3  .img-1{
     height: 100px;
     width: 165px;
-    background-image: url("/images/rw3_1.png");
+    background-image: url("../images/rw3_1.png");
 
 }
 
 .row-3 .img-2{
     width: 83.21px;
     height:111px;
-    background-image: url("/images/rw3_2.png");
+    background-image: url("../images/rw3_2.png");
     margin-left: 52px;
 }
 
