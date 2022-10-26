@@ -10,6 +10,8 @@ body{
     align-items: center;
     gap: 118px;
     text-decoration: none;
+    animation: bounceIn; 
+  animation-duration: 2s; 
 
 }
 
@@ -42,13 +44,16 @@ width: 444px;
 background-color: rgba(255, 205, 16, 1);
 font-family: 'Poppins';
 font-style: italic;
-font-weight: 800;
-font-size: 42px;
+font-weight: 750;
+font-size: 40px;
 line-height: 68px;
-padding: 20px 0.1px 20px 8px;
+display: flex;
+justify-content: center;
+align-items: center;
 border-radius: 20px;
 margin-top: 70px;
 
+color: #000000;
 
 }
 
@@ -60,7 +65,7 @@ margin-top: 70px;
 }
 
 .row-3  .img-1{
-    height: 100px;
+    height: 110px;
     width: 165px;
     background-image: url("../images/rw3_1.png");
 
@@ -80,7 +85,7 @@ margin-top: 70px;
     margin-left: 56px;
     padding-top: 22px;
     width:81.73px ;
-    height: 90px;
+    height: 110px;
     font-family: 'Poppins';
     font-style: italic;
     font-weight: 700;
