@@ -1,0 +1,63 @@
+body{
+    background: #100E0E;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 42px;
+}
+
+.container h1{
+    font-family: 'Righteous';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 75px;
+
+color: #FFFFFF;
+}
+
+.social-box{
+    display: flex;
+    /* margin-left: 32px; */
+    margin-top: 60px;
+    
+    
+   
+}
+
+.instagram img{
+    height: 135px;
+    width: 135px;
+
+
+
+   
+}
+
+.instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedin{
+    margin-left: 182px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.social{
+
+
+width: 336px;
+height: 336px;
+background: #100E0E;
+box-shadow: -4px -4px 12px rgba(234, 234, 234, 0.15), 4px 4px 12px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+}
