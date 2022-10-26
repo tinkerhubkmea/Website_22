@@ -33,22 +33,44 @@ body{
 }
 
 .hero-1 .content{
+    /* width: 678px; */
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
-font-size: 29px;
+font-size: 28px;
 line-height: 44px;
 text-align: center;
 
 color: #CECBCB;
+
+margin-top: 30%;
+margin-right: 82px;
+}
+
+.hero-1 .content a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 42px;
+
+color: #FFFFFF;
+
+
 }
 
 .hero-1 .content .button .button-box{
     border: 6px solid #FFFFFF;
     width: 225px;
-    height: 77px
+    
 }
 
 @keyframes to-right {

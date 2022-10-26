@@ -56,6 +56,9 @@ body{
     font-family: 'Poppins';
     color: #FFFFFF;
     margin-top: 190px;
+    margin-left: 32px;
+    animation:slideInLeft; 
+  animation-duration: 4s; 
 }
 
 .content h1{
@@ -69,12 +72,12 @@ text-align: center;
 
 
 .content p{
-    margin-top: 18px;
-    width: 450px;
-height: 270px;
+    margin-top: 8px;
+    width: 570px;
+    height: 270px;
 font-family: 'Inter';
 font-weight: 700;
-font-size: 32px;
+font-size: 28px;
 line-height: 39px;
 text-align: center;
 }
