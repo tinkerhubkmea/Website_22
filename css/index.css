@@ -136,8 +136,12 @@ animation: fadeIn; /* referring directly to the animation's @keyframe declaratio
 .main-box{
     border: 6px solid #FFFFFF;
     width: 200px;
-    height: 50px;
+    height: 55px;
     margin-top: 12px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
 }
 .main-box p{
     font-family: 'Poppins';
