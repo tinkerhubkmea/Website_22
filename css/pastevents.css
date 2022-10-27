@@ -1,0 +1,113 @@
+body{
+    background: linear-gradient(134.66deg, #1E1E1E 8.3%, rgba(33, 0, 58, 0.9) 84.62%);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background: #C8C8C8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin: 28px 106px 69px 106px;
+    padding-bottom: 120px;
+}
+
+.container h2{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+
+}
+.container h1{
+  font-family: 'Poppins';
+font-style: italic;
+font-weight: 600;
+font-size: 45px;
+line-height: 68px;
+text-align: center;
+
+color: #000000;
+}
+
+
+.content-container .wrapper{
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.content-container .content{
+    width: 687px;
+    height: 373px;
+    font-family: 'Poppins';
+/* font-style: italic; */
+font-weight: 540;
+font-size: 38px;
+line-height: 52px;
+text-align: center;  
+margin-left: 18px;
+}
+
+.content-container {
+    display: none;
+  }
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+.next {
+    right: 70px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }

@@ -9,10 +9,10 @@
 }
 
 body {
-    background: linear-gradient(187deg, #000000 1.64%, #140119 39.24%, #010022 59.75%, #1A0126 76.26%, #000000 94.77%);
+    /* background: linear-gradient(187deg, #000000 1.64%, #140119 39.24%, #010022 59.75%, #1A0126 76.26%, #000000 94.77%);
     background-repeat: no-repeat;
     position: relative;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     /*background-size: 4000px 4000px;*/
   }
 /* Rectangle 19 */
@@ -25,7 +25,7 @@ body {
     top: 40px;
     margin-left: 20px;
 
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.15) 100%);
+    /* background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.15) 100%); */
     backdrop-filter: blur(20px);
 /* Note: backdrop-filter has minimal browser support */
     border-radius: 20px;
@@ -33,11 +33,134 @@ body {
 }
 
 /* FOUNDER OF TINKERHUB KMEA */
-h1,h2,h3,h4{
+/* h1,h2,h3,h4{
     text-align: center;
     margin-top: 100px;
     color: white;
     left: auto;
     right: auto;
+} */
+
+.bg-container{
+    
+    z-index: -1;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    
+}
+
+.bg-container img{
+    position: fixed;
+    width: 1920px;
+    height: 1920px;
+    left: -190.03px;
+    top: 300px;
+    transform: rotate(-42.21deg);
+}
+
+
+.intro{
+    /* padding-top: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh;
+    width: 100vw; */
+  
+}
+
+.main-heading{
+display: flex;
+filter: drop-shadow(0px 20px 20px #000000) drop-shadow(0px 20px 20px #000000);
+margin-top: 132px;
+animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1.5s; /* don't forget to set a duration! */
+
+}
+
+.main-heading img{
+    width: 149px;
+    height: 118px;
+}
+.heading-text{
+    margin-left: 50px;
+    
+
+}
+
+
+.heading-text h3{
+   
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 52px;
+    
+    color: #FFFFFF;
+    margin-left: 20px;
+
+    
+
+}
+
+.main-content{
+    margin-top: 21px;
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 4s; /* don't forget to set a duration! */
+}
+
+.main-content p{
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 44px;
+    text-align: center;
+    width: 600px;
+    
+    color: #CECBCB;
+    
+}
+
+.box-link {
+    text-decoration: none;
+    animation: heartBeat; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 4s; /* don't forget to set a duration! */
+    
+}
+
+.main-box{
+    border: 6px solid #FFFFFF;
+    width: 200px;
+    height: 55px;
+    margin-top: 12px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+}
+.main-box p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    /* line-height: 42px; */
+    color: #FFFFFF;
+    text-align: center;
+    padding: 5px;
+}
+
+.about-us
+{
+    display: flex;
+    margin-left: 12px;
+    /* margin-top: 20px; */
+    margin-left: 81px;
+
+    /* animation: rotate 1s ease-in forward  3s; */
 }
 
